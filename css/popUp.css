@@ -1,0 +1,87 @@
+*{ padding: 0;margin: 0; }
+li{list-style: none; }
+.flex{ display: flex; }
+.flex_ja{ justify-content: space-around; }
+.pad_r{padding-right: 1.2em; }
+.mar_t8{ margin-top: 0.6em; }
+.box>button{ height: 2em;width: 10em;margin: 1em 0; background-color:rgb(202, 159, 218); outline-style: none;border: none;color: #fff; }
+
+
+/* 弹层背景 */
+.shade{width: 100%;height: 100%;background-color: rgba(0, 0, 0, 0.274);position: fixed;top: 0;z-index: 9;}
+
+/* 关闭弹层 */
+.close-img{ position:absolute;top:-3.2em;right: 0; }
+/* .show{ display: block; } */
+.hidden{ display: none; }
+/* 关闭弹层结束 */
+
+
+
+/* 排行榜 */
+.paihang{ height: 39.71em;width:23.5em;background-color: #fff;
+    position: absolute;z-index: 10;left: 0;right: 0;top:0;bottom: 0; margin: auto;
+    border-radius: 1.35em;
+}
+.paihang-top{ text-align: center; }
+.paihang-title{ position: relative; }
+.paihang-title{ position: relative; width:17.75em;height:4.17em;background-image: url(../images/paihang.png); margin: 0 auto; position: relative;top: -1.5em;text-align: center; }
+.paihang-title>span{ position: absolute; top: .2em;left: 0;bottom: 0;right: 0;margin: auto;font-size: 1.72em; color: #fff; font-weight: 500; }
+.list-title .jiangbei{ width: 1.92em;height: 1.57em; }
+.list-title .head-img{ width: 3.21em;height: 3.21em;border-radius: 50%;margin-top:0.3em;margin-bottom: 0.5em;border: .2em solid #FFCD2E; }
+.list-title .user-grade{ font-size:1.21em ; }
+.list-main>li{ border-bottom: 1px solid #dadada; }
+.list-main>li>div{ padding: 1em 2em;color: #5D5D5D; }
+.user-img{width:2.14em;height: 2.14em;border-radius: 50%;margin:0 1em;}
+.list-bottom{padding:2em 1.5em;color: #505050; }
+.font-weight{ font-weight: 500; color:#323232 ;font-size: 1.2em;}
+.aaa{ vertical-align: middle; }
+/* 排行榜结束 */
+
+
+
+/* 提交算分 */
+.suanfen{ height: 18.67em;width:23em;background-color: #fff;
+    position: absolute;z-index: 10;left: 0;right: 0;top:0;bottom: 0; margin: auto;
+    border-radius: 1.35em;text-align: center;
+}
+.suanfen-image{width:7em;height:5.07em ; margin: 0 auto; position: relative;top: -1.5em;}
+.suanfen-hint{ font-size:1em ;color: #6C6C6C; }
+.suanfen-text{ font-size: 2.92em;color: #E45E15;font-weight: bold;}
+.suanfen-text2{ font-size: 1.5em;color: #303030; }
+
+/* 提交算分结束 */
+
+
+
+/* 领取失败 */
+.lose{ height: 23.28em;width:25.35em;background-color: #fff;
+        position: absolute;z-index: 10;left: 0;right: 0;top:0;bottom: 0; margin: auto;
+        border-radius: 1.35em;text-align: center;
+}
+.lose-title{ font-size: 1.5em;color: #FFFFFF;background: #F59053;
+    width:12.9em;height:2.5em ; margin: 0 auto; text-align: center;
+    border-radius: 1.5em;line-height: 2.5em;font-weight: bold;
+    position: relative;top: -1.2em;box-shadow: 0px 0.5px 1em #bababa;
+ }
+ .lose-hint{ font-size:1.21em ;color: #6C6C6C;padding: 0 2em; }
+ .lose-image{ width: 8.96em;height: 8.32em; }
+/* 领取失败结束 */
+
+
+/* 领取成功 */
+.succeed{ height: 23.28em;width:25.35em;background-color: #fff;
+        position: absolute;z-index: 10;left: 0;right: 0;top:0;bottom: 0; margin: auto;
+        border-radius: 1.35em;text-align: center;
+}
+.succeed-title{ font-size: 1.5em;color: #FFFFFF;background: #F59053;
+    width:12.9em;height:2.5em ; margin: 0 auto; text-align: center;
+    border-radius: 1.5em;line-height: 2.5em;font-weight: bold;
+    position: relative;top: -1.5em;box-shadow: 0px 0.5px 1em #bababa;
+ }
+ .succeed-hint{ font-size:1.21em ;color: #6C6C6C;padding: 0 2em; }
+ .succeed-image{ width: 8.96em;height: 8.32em; }
+ .succeed-text{ font-size: 1.53em;color: #E45E15;font-weight: bold;}
+ .succeed-text2{ font-size: 1.6em;color: #303030; }
+ 
+  /* 领取成功结束 */

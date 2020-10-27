@@ -1,0 +1,41 @@
+/**app.wxss**/
+page {min-height: 100%;}
+html, body {font-size: 14px;}
+.container {font-family: "Microsoft YaHei", "Hiragino Sans GB", tahoma, Arial;box-sizing: border-box;width: 100%;overflow: hidden;}
+
+
+/* // 文本溢出 */
+.ellipsis {text-overflow: ellipsis;white-space: nowrap;overflow: hidden;}
+.ellipsis2 {overflow: hidden;display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 2;}
+.ellipsis3 {overflow: hidden;display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 3;}
+/* //  文本溢出-end */
+
+
+/* // flex布局 */
+.flex_grow{flex:1;}
+.flex_wrap{flex-wrap: wrap;}
+.flex_ac{align-items: center;}
+.flex_ae{align-items: flex-end;}
+.flex_as{align-items: flex-start;}
+.flex_jc{justify-content: center;}
+.flex_je{justify-content: flex-end;}
+.flex_js{justify-content: flex-start;}
+.flex_jb{justify-content: space-between;}
+.flex_r{display: flex;flex-direction: row;}
+.flex_c{display: flex;flex-direction: column;}
+/* // flex布局-end */
+
+
+/* // 边距 */
+.padd20{padding:1.4em 0;}
+.mar_t20{margin-top: 1.4em;}
+.mar_t30{margin-top: 2.14em;}
+.mar_t36{margin-top: 2.57em;}
+.mar_t50{margin-top: 3.57em;}
+.mar_t16{margin-top: 1.14em;}
+.mar_t-10{margin-top: -.71em;}
+.padd_t30{padding-top: 2.14em;}
+.mar_b20{margin-bottom: 1.4em;}
+.mar_b30{margin-bottom: 2.14em;}
+.padd_b0{padding-bottom: 0 !important;}
+/* // 边距-end */

@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <div class="head-back"></div>
+
+    <!-- 答题列表 -->
+    <div class="dati-box">
+        <form class="dati-list" onsubmit="return false;" >
+            <!-- 答题列表头部 -->
+            <div class="dl-title">
+                <img src="./images/index_title.png" alt="">
+                <text id="time">
+                    剩余 00:15:52
+                </text>
+            </div>
+            <!-- 答题列表内容 -->
+            <ul id="problem" class="problem">
+                <li>
+                    <div class="item-wenti">1.做木材生意哪个线上平台好一些？</div>
+                    <!-- <div  class="flex flex_c  item-radio"> -->
+                        <label><input type="radio" name="test" /><span>A、淘宝</span></label>
+                        <label><input type="radio" name="test" /><span>B、微信小程序</span></label>
+                        <label><input type="radio" name="test" /><span>C、火花App</span></label>
+                        <label><input type="radio" name="test" /><span>D、咸鱼</span></label>
+                    <!-- </div> -->
+                </li>
+                <li>
+                    <div class="item-wenti">1.做木材生意哪个线上平台好一些？</div>
+                    <!-- <div class="flex flex_c  item-radio"> -->
+                        <label><input type="radio" name="test1" /><span>A、淘宝</span></label>
+                        <label><input type="radio" name="test1" /><span>B、微信小程序</span></label>
+                        <label><input type="radio" name="test1" /><span>C、火花App</span></label>
+                        <label><input type="radio" name="test1" /><span>D、咸鱼</span></label>
+                    <!-- </div> -->
+                </li>
+                <li>
+                    <div class="item-wenti">1.做木材生意哪个线上平台好一些？</div>
+                    <!-- <div class="flex flex_c  item-radio"> -->
+                        <label><input type="radio" name="test2" /><span>A、淘宝</span></label>
+                        <label><input type="radio" name="test2" /><span>B、微信小程序</span></label>
+                        <label><input type="radio" name="test2" /><span>C、火花App</span></label>
+                        <label><input type="radio" name="test2" /><span>D、咸鱼</span></label>
+                    <!-- </div> -->
+                </li>
+            </ul>
+            <!-- 答题列表的底部按钮 -->
+            <div class="submit flex flex_jc">
+                <button id="bt3" type="submit">提交</button>
+            </div>
+             <div class="dati-button flex flex_jb">
+                 <button id="bt1" style="background: #7DC791;">查看排名</button>
+                 <button id="bt4" style="background: #EB6C11;">领取奖品</button>
+             </div>
+        </form>
+        
+        <!-- 底部两个的图片 -->
+        <div class="foot flex flex_jb flex_ae">
+            <img src="./images/index1.png" alt="">
+            <img src="./images/index2.png" alt="">
+        </div>
+    </div>
+
+    <!-- 排行榜弹层 -->
+    <div class="paihang hidden">
+        <div class="paihang-top">
+            <img class="close-img" src="./images/close.png" alt="">
+            <div class="paihang-title">
+               <span>排行榜</span> 
+            </div>
+        </div>
+        <div class="paiming-list">
+            <div class="list-title flex flex_ja">
+                <div style="color: #97BFC8;" class="flex flex_c flex_jc flex_ac">
+                    <img class="jiangbei" src="./images/2.png" alt="">
+                    <img class="head-img" src="./images//testimg.jpg" alt="">
+                    <div class="user-name">项城</div>
+                    <div class="user-grade">82</div>
+                </div>
+                <div style="color: #FFCD2E;" class="flex flex_c flex_jc flex_ac">
+                    <img class="jiangbei" src="./images/1.png" alt="">
+                    <img class="head-img" src="./images//testimg.jpg" alt="">
+                    <div class="user-name">项城</div>
+                    <div class="user-grade">92</div>
+                </div>
+                <div style="color: #C88649;" class="flex flex_c flex_jc flex_ac">
+                    <img class="jiangbei" src="./images/3.png" alt="">
+                    <img class="head-img" src="./images//testimg.jpg" alt="">
+                    <div class="user-name">项城</div>
+                    <div class="user-grade">71</div>
+                </div>
+            </div>
+            <ul class="list-main">
+                <li>
+                    <div class="flex flex_jc flex_jb">
+                        <div class="flex flex_ac">
+                            <text style="font-size:0.85 ;">4</text>
+                            <img class="user-img" src="./images//testimg.jpg" alt="">
+                            <text>查勘</text>
+                        </div>
+                        <div class="flex flex_ac">
+                            <text  style="font-size:1.07 ;">66</text>
+                        </div>
+                       
+                    </div>
+                </li>
+                <li>
+                    <div class="flex flex_jc flex_jb">
+                        <div class="flex flex_ac">
+                            <text style="font-size:0.85 ;">5</text>
+                            <img class="user-img" src="./images//testimg.jpg" alt="">
+                            <text>查勘</text>
+                        </div>
+                        <div class="flex flex_ac">
+                            <text  style="font-size:1.07 ;">66</text>
+                        </div>
+                       
+                    </div>
+                </li>
+                <li>
+                    <div class="flex flex_jc flex_jb">
+                        <div class="flex flex_ac">
+                            <text style="font-size:0.85 ;">6</text>
+                            <img class="user-img" src="./images//testimg.jpg" alt="">
+                            <text>查勘</text>
+                        </div>
+                        <div class="flex flex_ac">
+                            <text  style="font-size:1.07 ;">66</text>
+                        </div>
+                       
+                    </div>
+                </li>
+                <li>
+                    <div class="flex flex_jc flex_jb">
+                        <div class="flex flex_ac">
+                            <text style="font-size:0.85 ;">7</text>
+                            <img class="user-img" src="./images//testimg.jpg" alt="">
+                            <text>查勘</text>
+                        </div>
+                        <div class="flex flex_ac">
+                            <text  style="font-size:1.07 ;">66</text>
+                        </div>
+                       
+                    </div>
+                </li>
+                <li>
+                    <div class="flex flex_jc flex_jb">
+                        <div class="flex flex_ac">
+                            <text style="font-size:0.85 ;">8</text>
+                            <img class="user-img" src="./images//testimg.jpg" alt="">
+                            <text>查勘</text>
+                        </div>
+                        <div class="flex flex_ac">
+                            <text  style="font-size:1.07 ;">66</text>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="list-bottom flex flex_jb">
+                <div class="flex flex_ac">
+                    <img class="user-img" src="./images/testimg.jpg" alt="">
+                    <text>肉肉</text>
+                </div>
+                <div class="flex flex_ac ">
+                    <text class="pad_r flex flex_ac">
+                        <span class="font-weight">80</span>分
+                    </text>
+                    <text class="flex flex_ac">
+                        排名<span class="font-weight">28</span>
+                    </text>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 领取失败 -->
+    <div class="lose hidden">
+        <div class="lose-main">
+            <img class="close-img" src="./images/close.png" alt="">
+            <div class="lose-title">领取失败</div>
+            <img class="lose-image  mar_b30" src="./images/lose.png" alt="">
+            <div class="lose-hint">
+                很抱歉，你的排名未达到前三名无法领取礼品
+            </div>
+        </div>
+    </div>
+    <!-- 提交算分 -->
+    <div class="suanfen hidden">
+        <div class="suanfen-main">
+            <img class="close-img" src="./images/close.png" alt="">
+            <img class="suanfen-image" src="./images/jiangbei.png" alt="">
+            <div class="suanfen-text">90分</div>
+            <div class="suanfen-text2 mar_t16">恭喜你获得了</div>
+            <div class="suanfen-hint mar_t20 flex flex_ja">
+                <div style="color: #62BE7E;">答对：20题</div>
+                <div style="color: #E56D2D;">答错05题</div>
+                <div style="color: #373737;">用时00：05：21</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 领取成功 -->
+    <div class="succeed hidden">
+        <div class="succeed-main">
+            <img class="close-img" src="./images/close.png" alt="">
+            <div class="succeed-title">领取成功</div>
+            <img class="succeed-image" src="./images/quan.png" alt="">
+            <div class="succeed-text mar_t8">50元消费券</div>
+            <div class="succeed-text2 mar_t8">恭喜你，获得50元服务券</div>
+            <div class="succeed-hint mar_t8">请在我的-奖品里查看</div>
+        </div>
+    </div>
+
+    <!-- 黑色背景弹层 -->
+    <div class="shade hidden"></div>
+
+
+   
+
+</body>
+
+<script src="./js/jquery-3.3.1.min.js"></script>
+<script>
+    $(function(){
+        // 选中的题
+        var activeRadio = {} // 每一个问题 用户选择的答案
+        var titme = 0;//剩余时间
+        var answerTime = 0 //答题最长时间
+
+        $.ajax({
+            url:"https://zhiyuan.soowin.com/yc-answer/answer/getAnswerSubjectList",
+            method:"POST",
+            data:{
+                userId:132
+            },
+            success:function(res){
+                console.log(res)
+                answerTime = res.answerTime
+                TimeDown('time',res.answerTime)
+                appendradio(res.problem)
+            }
+        });
+
+
+        //追加问题
+        function appendradio(problem){
+            var roblemName = `<div class="item-wenti">${problem.problemName}</div>`
+            var abc = ['A','B','C','D']
+            for (let i = 0; i <problem.length; i++) {
+                var lable =''
+                for (let j = 0; j < problem[i].answerList.length; j++) {
+                    lable = lable + `<label><input type="radio" name="${problem[i].problemId}" /><span>${abc[j]}、${problem[i].answerList[j].answer}</span></label>`
+                }
+                
+                $('#problem').append(`<li>
+                    <div class="item-wenti">${i+1}. ${problem[i].problemName}</div>
+                    ${lable}
+                </li>`)
+            }
+        };
+        
+
+        /*时间倒计时 */
+        function TimeDown(id, value) {
+        
+            //倒计时的总秒数
+            var totalSeconds = parseInt(value / 1000);
+
+            //取模（余数）
+            var modulo = totalSeconds % (60 * 60 * 24);
+            //小时数
+            var hours = Math.floor(modulo / (60 * 60));
+            modulo = modulo % (60 * 60);
+            //分钟
+            var minutes = Math.floor(modulo / 60);
+            //秒
+            var seconds = modulo % 60;
+
+            hours = hours.toString().length == 1 ? '0' + hours : hours;
+            minutes = minutes.toString().length == 1 ? '0' + minutes : minutes;
+            seconds = seconds.toString().length == 1 ? '0' + seconds : seconds;
+
+            //输出到页面
+            $('#'+id).text('剩余 '+ hours + ":" + minutes + ":" + seconds);
+            //延迟一秒执行自己
+            if(hours == "00" && minutes == "00" && parseInt(seconds)-1<0){
+                alert('时间已到')
+            }else{
+                myTimeOut = setTimeout(function () {
+                    titme = value
+                    TimeDown(id, value-1000);
+                }, 1000)
+            }
+        }
+
+
+        // 单选功能
+        $('#problem').on('click','input',function(){
+            let className = $(this).prop('name')
+            let obj = $('input[name="' + className +'"]')
+            for (let i = 0; i < obj.length; i++) {
+                if(obj[i].checked){
+                    var activeObj = i
+                }
+            }
+
+            activeRadio[className] = activeObj
+
+            // console.log(activeObj)
+            $('input[name="' + className +'"]').parent().removeClass('active')
+            $('input[name="' + className +'"]').removeAttr("checked")
+
+            $(this).attr("checked",true)
+            $(this).parent().addClass('active')
+            // console.log(this)
+        })
+
+
+
+        // 关闭弹层按钮
+        $('.close-img').click(function(){
+            $('.paihang,.lose,.suanfen,.succeed,.shade').hide()
+        })
+
+        // 排行榜
+        $('#bt1').click(function(){
+            console.log('12313')
+            showShade('.paihang')
+        })
+        // 领取失败
+        $('#bt2').click(function(){
+            showShade('.lose')
+        })
+        // 提交算分
+        $('#bt3').click(function(){
+            showShade('.suanfen')
+            clearTimeout(myTimeOut);
+            var totalTime = answerTime - titme
+            console.log(totalTime)
+            console.log(activeRadio)
+        })
+        // 领取成功
+        $('#bt4').click(function(){
+            showShade('.succeed')
+        })
+
+
+        function showShade(active){
+            $(active).show()
+            $(".shade").show()
+        }
+    })
+</script>
+</html>

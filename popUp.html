@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/popUp.css">
+</head>
+<body>
+    <div class="box flex flex_c flex_ac">
+        <button class="bt1">排行榜</button>
+        <button class="bt2">领取失败</button>
+        <button class="bt3">提交算分</button>
+        <button class="bt4">领取成功</button>
+    </div>
+    
+
+    <!-- 排行榜弹层 -->
+    <div class="paihang hidden">
+        <div class="paihang-top">
+            <img class="close-img" src="./images/close.png" alt="">
+            <div class="paihang-title">
+               <span>排行榜</span> 
+            </div>
+        </div>
+        <div class="paiming-list">
+            <div class="list-title flex flex_ja">
+                <div style="color: #97BFC8;" class="flex flex_c flex_jc flex_ac">
+                    <img class="jiangbei" src="./images/2.png" alt="">
+                    <img class="head-img" src="./images//testimg.jpg" alt="">
+                    <div class="user-name">项城</div>
+                    <div class="user-grade">82</div>
+                </div>
+                <div style="color: #FFCD2E;" class="flex flex_c flex_jc flex_ac">
+                    <img class="jiangbei" src="./images/1.png" alt="">
+                    <img class="head-img" src="./images//testimg.jpg" alt="">
+                    <div class="user-name">项城</div>
+                    <div class="user-grade">92</div>
+                </div>
+                <div style="color: #C88649;" class="flex flex_c flex_jc flex_ac">
+                    <img class="jiangbei" src="./images/3.png" alt="">
+                    <img class="head-img" src="./images//testimg.jpg" alt="">
+                    <div class="user-name">项城</div>
+                    <div class="user-grade">71</div>
+                </div>
+            </div>
+            <ul class="list-main">
+                <li>
+                    <div class="flex flex_jc flex_jb">
+                        <div class="flex flex_ac">
+                            <text style="font-size:0.85 ;">4</text>
+                            <img class="user-img" src="./images//testimg.jpg" alt="">
+                            <text>查勘</text>
+                        </div>
+                        <div class="flex flex_ac">
+                            <text  style="font-size:1.07 ;">66</text>
+                        </div>
+                       
+                    </div>
+                </li>
+                <li>
+                    <div class="flex flex_jc flex_jb">
+                        <div class="flex flex_ac">
+                            <text style="font-size:0.85 ;">5</text>
+                            <img class="user-img" src="./images//testimg.jpg" alt="">
+                            <text>查勘</text>
+                        </div>
+                        <div class="flex flex_ac">
+                            <text  style="font-size:1.07 ;">66</text>
+                        </div>
+                       
+                    </div>
+                </li>
+                <li>
+                    <div class="flex flex_jc flex_jb">
+                        <div class="flex flex_ac">
+                            <text style="font-size:0.85 ;">6</text>
+                            <img class="user-img" src="./images//testimg.jpg" alt="">
+                            <text>查勘</text>
+                        </div>
+                        <div class="flex flex_ac">
+                            <text  style="font-size:1.07 ;">66</text>
+                        </div>
+                       
+                    </div>
+                </li>
+                <li>
+                    <div class="flex flex_jc flex_jb">
+                        <div class="flex flex_ac">
+                            <text style="font-size:0.85 ;">7</text>
+                            <img class="user-img" src="./images//testimg.jpg" alt="">
+                            <text>查勘</text>
+                        </div>
+                        <div class="flex flex_ac">
+                            <text  style="font-size:1.07 ;">66</text>
+                        </div>
+                       
+                    </div>
+                </li>
+                <li>
+                    <div class="flex flex_jc flex_jb">
+                        <div class="flex flex_ac">
+                            <text style="font-size:0.85 ;">8</text>
+                            <img class="user-img" src="./images//testimg.jpg" alt="">
+                            <text>查勘</text>
+                        </div>
+                        <div class="flex flex_ac">
+                            <text  style="font-size:1.07 ;">66</text>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="list-bottom flex flex_jb">
+                <div class="flex flex_ac">
+                    <img class="user-img" src="./images/testimg.jpg" alt="">
+                    <text>肉肉</text>
+                </div>
+                <div class="flex flex_ac ">
+                    <text class="pad_r flex flex_ac">
+                        <span class="font-weight">80</span>分
+                    </text>
+                    <text class="flex flex_ac">
+                        排名<span class="font-weight">28</span>
+                    </text>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 领取失败 -->
+    <div class="lose hidden">
+        <div class="lose-main">
+            <img class="close-img" src="./images/close.png" alt="">
+            <div class="lose-title">领取失败</div>
+            <img class="lose-image  mar_b30" src="./images/lose.png" alt="">
+            <div class="lose-hint">
+                很抱歉，你的排名未达到前三名无法领取礼品
+            </div>
+        </div>
+    </div>
+    
+    <!-- 提交算分 -->
+    <div class="suanfen hidden">
+        <div class="suanfen-main">
+            <img class="close-img" src="./images/close.png" alt="">
+            <img class="suanfen-image" src="./images/jiangbei.png" alt="">
+            <div class="suanfen-text">90分</div>
+            <div class="suanfen-text2 mar_t16">恭喜你获得了</div>
+            <div class="suanfen-hint mar_t20 flex flex_ja">
+                <div style="color: #62BE7E;">答对：20题</div>
+                <div style="color: #E56D2D;">答错05题</div>
+                <div style="color: #373737;">用时00：05：21</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 领取成功 -->
+    <div class="succeed hidden">
+        <div class="succeed-main">
+            <img class="close-img" src="./images/close.png" alt="">
+            <div class="succeed-title">领取成功</div>
+            <img class="succeed-image" src="./images/quan.png" alt="">
+            <div class="succeed-text mar_t8">50元消费券</div>
+            <div class="succeed-text2 mar_t8">恭喜你，获得50元服务券</div>
+            <div class="succeed-hint mar_t8">请在我的-奖品里查看</div>
+        </div>
+    </div>
+
+    <!-- 黑色背景弹层 -->
+    <div class="shade hidden"></div>
+
+
+</body>
+<script src="./js/jquery-3.3.1.min.js"></script>
+<script>
+    $(function(){
+        $('.close-img').click(function(){
+            $('.paihang,.lose,.suanfen,.succeed,.shade').hide()
+        })
+
+        $('.bt1').click(function(){
+            showShade('.paihang')
+        })
+        $('.bt2').click(function(){
+            showShade('.lose')
+        })
+        $('.bt3').click(function(){
+            showShade('.suanfen')
+        })
+        $('.bt4').click(function(){
+            showShade('.succeed')
+        })
+
+
+        function showShade(active){
+            $(active).show()
+            $(".shade").show()
+        }
+    })
+</script>
+</html>
